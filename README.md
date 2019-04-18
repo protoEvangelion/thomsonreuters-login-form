@@ -7,3 +7,7 @@
 ## HTML
 
 - one is for desktop & one is for mobile. They are near identical
+
+## JS
+
+- Form js is `form.js` file & production minified version is `form.production.js`
