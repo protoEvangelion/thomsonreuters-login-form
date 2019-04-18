@@ -1,0 +1,106 @@
+.container {
+  align-items: flex-start;
+}
+
+.logo {
+  padding-top: 17px;
+}
+
+.mobile_header .logo {
+  padding-top: 0;
+}
+
+.top_nav_mobile .thomsonreuters-login-form {
+  flex-direction: column;
+  transition: padding 0.3s, opacity 0.3s, max-height 0.3s ease-out 0.3s,
+  visibility 0.3s;
+}
+
+.top_nav_mobile .thomsonreuters-login-form input {
+  box-sizing: border-box;
+  margin: 0 0 1rem;
+  width: 100%;
+}
+
+.top_nav_mobile .thomsonreuters-login-form a {
+  padding: 1rem 0 0 1px;
+  color: white;
+}
+
+.top_nav_mobile .thomsonreuters-login-form-visible {
+  padding: 1rem;
+  transition: opacity 0.3s ease-in 0.3s, max-height 0.3s,
+  visibility 0.3s ease-in 0.3s;
+}
+
+.thomsonreuters-login-form {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  max-height: 0;
+  opacity: 0;
+  transition: opacity 0.3s, max-height 0.4s, visibility 0.3s;
+  visibility: hidden;
+}
+
+.thomsonreuters-login-form-visible {
+  max-height: 300px;
+  opacity: 1;
+  transition: opacity 0.3s ease 0.1s, max-height 0.4s, visibility 0.3s ease 0.1s;
+  visibility: visible;
+}
+
+.thomsonreuters-login-form input {
+  border-radius: 3px;
+  border: 1px solid rgb(233, 233, 233);
+  color: black;
+  margin: 0 1rem 10px;
+  padding: 1rem;
+  transition: border 0.5s;
+  width: 25%;
+}
+
+.thomsonreuters-login-form input:focus {
+  border-color: #c4d114 !important;
+  transition: border 0.5s;
+}
+
+.thomsonreuters-login-form input[type='submit'] {
+  background: #c4d114;
+  border: none;
+  color: white;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 0 !important;
+  padding: 12px 40px;
+  position: static;
+  transition: opacity 0.5s;
+  width: 100%;
+}
+
+.thomsonreuters-login-form div a {
+  color: #5a5959;
+  padding: 1rem 3px 1rem 1rem;
+  transition: color 0.5s;
+}
+
+.thomsonreuters-login-form div a:hover {
+  color: black;
+  transition: color 0.5s;
+}
+
+.thomsonreuters-login-form div {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.top_nav_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-nav a {
+	line-height:0px;
+}
