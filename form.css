@@ -1,3 +1,7 @@
+#trResetPwdFrame {
+  z-index: 1000;
+}
+
 .container {
   align-items: flex-start;
 }
@@ -13,7 +17,7 @@
 .top_nav_mobile .thomsonreuters-login-form {
   flex-direction: column;
   transition: padding 0.3s, opacity 0.3s, max-height 0.3s ease-out 0.3s,
-  visibility 0.3s;
+    visibility 0.3s;
 }
 
 .top_nav_mobile .thomsonreuters-login-form input {
@@ -30,7 +34,7 @@
 .top_nav_mobile .thomsonreuters-login-form-visible {
   padding: 1rem;
   transition: opacity 0.3s ease-in 0.3s, max-height 0.3s,
-  visibility 0.3s ease-in 0.3s;
+    visibility 0.3s ease-in 0.3s;
 }
 
 .thomsonreuters-login-form {
@@ -102,5 +106,5 @@
 }
 
 .top-nav a {
-	line-height:0px;
+  line-height: 0px;
 }
