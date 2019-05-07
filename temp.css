@@ -1,0 +1,23 @@
+.make-payment {
+  -webkit-box-align: space-around;
+  -ms-flex-align: space-around;
+  align-items: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.make-payment svg {
+  fill: white;
+  padding-right: 0.75em;
+}
+
+.top_bar .row,
+.top_bar .row div:nth-child(2) {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
