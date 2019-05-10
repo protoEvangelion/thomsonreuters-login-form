@@ -1,0 +1,29 @@
+{
+  "name": "chris-wp-capata",
+  "version": "1.0.0",
+  "description": "- Form css src code is in the `form.css` file - Form production ready css code is in the `form.production.css` file   - This file has been autoprefixed and minified",
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "cssnano": "^3.5.2",
+    "node-sass": "^3.4.2",
+    "postcss": "^5.0.16",
+    "postcss-cli": "^2.5.1",
+    "watch": "^0.17.1"
+  },
+  "scripts": {
+    "build": "node-sass src/css/index.scss -o build && postcss build/index.css --use autoprefixer --replace && postcss build/index.css --use cssnano --replace",
+    "build:watch": "watch 'npm run build' *",
+    "dev": "watch 'npm run build' *"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/protoEvangelion/thomsonreuters-login-form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/protoEvangelion/thomsonreuters-login-form/issues"
+  },
+  "homepage": "https://github.com/protoEvangelion/thomsonreuters-login-form#readme"
+}
