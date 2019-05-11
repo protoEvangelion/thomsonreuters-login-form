@@ -1,5 +1,4 @@
 ;(function() {
-  // Show/Hide Thomas Reuters Login Form
   const loginForm = document.querySelector('.thomsonreuters-login-form')
   const loginFormMobile = document.querySelector(
     '.thomsonreuters-login-form-mobile'

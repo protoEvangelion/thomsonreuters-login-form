@@ -1,11 +1,43 @@
+.post-template-default .tmc_post_info {
+  padding-bottom: 3rem;
+}
+
 .single-service-item:hover .icon-box img {
   transform: none !important;
+}
+
+.single-team .bread-cumb .container {
+  opacity: 0;
+  visibility: hidden;
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 .top_bar .thm-container .row,
 .top-nav ul {
   display: flex;
   align-items: center;
+}
+
+.why-choose-bg2 {
+  padding-bottom: 3rem;
+
+  .faq-page.faq-page2
+    .vc_tta-color-grey.vc_tta-style-classic
+    .vc_tta-panel
+    .vc_tta-panel-title
+    > a {
+    padding-left: 0.5rem !important;
+    padding-right: 2rem !important;
+  }
+
+  .wpb_wrapper {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
 }
 
 .wpb_wrapper .sec-title h2 {
