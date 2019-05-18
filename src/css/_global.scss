@@ -1,3 +1,10 @@
+.entry-meta.post-page-meta .logo_wrapper::after,
+.logo_wrapper::before,
+.post-resource,
+.testimonial-sec .redo {
+  display: none;
+}
+
 .post-template-default .tmc_post_info {
   padding-bottom: 3rem;
 }
@@ -83,10 +90,6 @@
   padding-left: 1rem;
 }
 
-.entry-meta.post-page-meta {
-  display: none;
-}
-
 .wpb_wrapper .best-ser {
   display: flex;
   flex-wrap: wrap;
@@ -106,11 +109,6 @@
 .header_top .logo,
 .logo_wrapper .logo {
   padding: 0;
-}
-
-.logo_wrapper::after,
-.logo_wrapper::before {
-  display: none;
 }
 
 .header_top .container,
