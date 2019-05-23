@@ -11,7 +11,7 @@
     "clean-css-cli": "^4.3.0",
     "node-sass": "^3.4.2",
     "postcss": "^5.0.16",
-    "postcss-cli": "^2.5.1",
+    "postcss-cli": "^6.1.2",
     "watch": "^0.17.1"
   },
   "scripts": {
